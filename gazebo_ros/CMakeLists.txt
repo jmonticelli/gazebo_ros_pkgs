@@ -102,7 +102,7 @@ target_link_libraries(gazebo_ros_paths_plugin ${catkin_LIBRARIES} ${Boost_LIBRAR
 
 ## Tests
 
-add_subdirectory(test)
+#add_subdirectory(test)
 
 # Install Gazebo System Plugins
 install(TARGETS gazebo_ros_api_plugin gazebo_ros_paths_plugin
